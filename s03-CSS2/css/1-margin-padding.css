@@ -16,7 +16,30 @@ body {
 }
 
 .blok-ortala {
+    padding: 30px;
     background-color: green;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.blok-ortala div {
+    padding: 20px;
+    width: 80px;
+    background-color: magenta;
+    margin: auto; /* blok icerisindeki bir baska element
+    margin:auto ile ortalanabilir.*/
+}
+/* ! Span gibi Inline elementlere ust ve 
+! alt margin verilemez */
+
+.span-btn {
+  background-color: lightcoral;
+  padding: 10px;
+  margin-top: 60px; /* margin-top islemez inline oldugu icin*/
+
+  margin-right: 30px;
+}
+.span-div {
+    margin-top: 50px;
 }
 
 
