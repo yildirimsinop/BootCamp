@@ -1,0 +1,49 @@
+
+
+body {
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+
+#first-par {
+    color: white;
+    font-weight: 700; /*! Font kalinligi */
+    font-size: 25p;
+    background-color: red;
+}
+
+div {
+
+    background-color: antiquewhite;
+}
+
+/*? CSS'de degisken veya property'ler isim verirken kebap-case notasyonu kullanir. */
+
+.my-par {
+line-height: 1.5;  /* satir yuksekligi */
+word-spacing: 20px; /* kelimeler arasi bosluk */
+letter-spacing: 5px; /* harfler arasi bosluk */
+
+}
+
+a {
+    color: blueviolet ; 
+    text-decoration: none; /* cizgi yok*/
+    text-decoration: overline; /* ustu cizgili */
+    text-decoration: line-through; /* uzeri cizgili*/
+}
+
+/*! ziyaret edilmeden once calisir.  */
+a:link {
+    color : blueviolet
+}
+
+/* ! a ziyaret edildiginde calisir */
+a:visited {
+    color: red;
+}
+
+/*! a etiketinin uzerine gelindiginde calisir. */
+a :hover {
+    color:green
+}
