@@ -1,0 +1,23 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn {
+    background-color: beige;
+    margin: 10px; /*her yonden 10px lik bir mesafe verdik*/
+    margin: 30px 10px;
+    margin-top: 10px;
+
+    /* ! ic hacim - padding */
+
+    padding: 20px; /* dort taraftan ic hacim verir*/
+
+    padding-top: 40px;
+}
+
+.blok-ortala {
+    background-color: green;
+}
+
+
+
