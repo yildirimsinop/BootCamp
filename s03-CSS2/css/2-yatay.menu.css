@@ -1,5 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+} 
+h2 {
+    margin-top:  40px;
+}
+body {
+    text-align: center;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+
+    font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Serif', serif;
+font-family: 'Explora', cursive;
+font-family: 'Roboto Serif', serif;
+}
 nav a {
     background-color: antiquewhite;
     display: inline-block;
-    width: 300px;
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+}
+
+nav a:hover {
+    background-color: coral;
+    color : white;
+}
+
+main {
+    font-family: "Explora", cursive;
+    font-size: 30px;
 }
