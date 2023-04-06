@@ -1,0 +1,55 @@
+* {
+/* universal selector: tum elementleri secer */
+margin: 0;
+}
+body {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav {
+    background-color: black;
+}
+nav a {
+    display: inline-block;
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+
+nav a:hover {
+    background-color: coral;
+    color : white;
+}
+
+.hero {
+background-image: url("../img/bg-image.jpg");
+height: calc(100vh - 58px);
+/* background-size:contain ;
+background-repeat: no-repeat; */
+background-size: cover;
+background-position: center center;
+position: relative;
+}
+
+.hero-text {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+}
+.fixed {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    font-size: 40px;
+    width: 50px;
+    background-color: green;
+    border-radius: 50%;
+    color: white;
+}
+.fixed :hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
